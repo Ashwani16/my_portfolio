@@ -1,0 +1,57 @@
+
+.navbar{
+ background-color: rgb(240, 248, 255);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 60px;
+ padding: 0px 30px;
+}
+
+.navbar>div>p{
+  font-size:30px ;
+  padding: 4px;
+  color: rgb(3, 2, 68);
+}
+.navcolor{
+    color: blue;
+}
+.bars{
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+.bars>div{
+  border-radius: 10px;
+  background-color: rgb(252, 249, 249);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 0px 10px;
+  
+}
+.bars>div>p{
+  margin: 4px;
+  font-size:20px ;
+}
+
+.menu{
+  margin-right: 5px;
+  display: none;
+}
+.showbar{
+  width: 40%;
+  text-align: right;
+ margin-left: 60%;
+ background-color: aquamarine;
+ 
+}
+.showbar>div>p{
+margin-right:10px ;
+}
+@media only screen and (max-width: 660px) {
+  .menu{
+    display: block;
+  }
+  .bars{
+    display: none;
+  }
+}
